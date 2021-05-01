@@ -4,14 +4,13 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.jpeg";
-import editor from "../../Assets/Projects/codeEditor.png";
-import eeg from "../../Assets/Projects/eeg.gif";
-import suicide from "../../Assets/Projects/suicide.png";
-import algo from "../../Assets/Projects/algo.png";
-import plant from "../../Assets/Projects/plant.jpeg";
+import leaf from "../../Assets/Projects/leaf.jpg";
+import emotion from "../../Assets/Projects/emotion.jpg";
+import editor from "../../Assets/Projects/codeEditor.jpg";
+import eeg from "../../Assets/Projects/eeg.jpg";
+import suicide from "../../Assets/Projects/suicide.jpg";
+//import algo from "../../Assets/Projects/algo.png";
+//import plant from "../../Assets/Projects/plant.jpeg";
 
 function Projects() {
   return (
@@ -29,9 +28,9 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              link="https://github.com/soumyajit4419/Plant_AI"
+              title="knowladge-Haven"
+              description="e-Commerch website.Easily to order book."
+              link="https://knowledge-haven.web.app/"
             />
           </Col>
 
@@ -39,9 +38,9 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              link="https://github.com/soumyajit4419/Editor.io"
+              title="Creative-Agency"
+              description="An user can order service, set a time limit, set a price and can upload an image as a sample.User can post reviews.User will be able to see their work progress through the status."
+              link="https://creative-agency-f.web.app/"
             />
           </Col>
 
@@ -49,9 +48,9 @@ function Projects() {
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              link="https://github.com/soumyajit4419/AI_For_Social_Good"
+              title="Hot onion"
+              description="Order food from the menu.Sign Up to place order."
+              link="https://hot-onion-restaurant-f.web.app/foodDetails/0"
             />
           </Col>
 
@@ -59,10 +58,9 @@ function Projects() {
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              link="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              title="Quick-Ride"
+              description="Rent a trans-porta availlabe here.See the locateion and rent."
+              link="https://quick-ride-bd.web.app/"
             />
           </Col>
 
@@ -70,9 +68,9 @@ function Projects() {
             <ProjectCard
               imgPath={eeg}
               isBlog={false}
-              title="Emotion Predcition from EEG Signals"
-              description="Using EEG signals from 'AMIGOS' Dataset to extract features and train a classifier that helps in detection of human emotions from Brain Signals."
-              link="https://gist.github.com/soumyajit4419/dc94177bc4954752051798f88fbce1df"
+              title="The Leaguge-Sports"
+              description="Selected your club.and see the player."
+              link="https://the-league-sports.netlify.app/"
             />
           </Col>
         </Row>

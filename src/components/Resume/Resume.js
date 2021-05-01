@@ -45,7 +45,7 @@ function Resume() {
             <Resumecontent
               title="Web Development "
               content={[
-                "Worked on creating the frontend-end of the website using Bootstrap, Javascript.",
+                "creating the frontend-end website using the Bootstrap, Javascript,react.js,node.js,Mongodb,firebase,Complete Web Devlopment Course With Jhankar Mahbub",
               ]}
             />
             <Resumecontent
