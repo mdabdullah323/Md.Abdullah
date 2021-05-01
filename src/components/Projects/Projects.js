@@ -9,8 +9,7 @@ import emotion from "../../Assets/Projects/emotion.jpg";
 import editor from "../../Assets/Projects/codeEditor.jpg";
 import eeg from "../../Assets/Projects/eeg.jpg";
 import suicide from "../../Assets/Projects/suicide.jpg";
-//import algo from "../../Assets/Projects/algo.png";
-//import plant from "../../Assets/Projects/plant.jpeg";
+
 
 function Projects() {
   return (
